@@ -1,4 +1,4 @@
-name: Upload AWS
+name: Upload AWS!
 on:
   push:
 jobs:
