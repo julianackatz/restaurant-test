@@ -7,10 +7,6 @@
     "build": "next build && next export",
     "start": "next start"
   },
-  "engines": {
-    "node": "14.x",
-    "npm": ">=7.0.0"
-  },
   "dependencies": {
     "@apollo/client": "^3.2.4",
     "@stripe/react-stripe-js": "^1.1.2",
