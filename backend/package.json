@@ -1,7 +1,7 @@
 {
   "name": "backend",
   "private": true,
-  "version": "0.1.0",
+  "version": "4.8.2",
   "description": "A Strapi application",
   "scripts": {
     "develop": "strapi develop",
@@ -9,6 +9,10 @@
     "build": "strapi build",
     "strapi": "strapi",
     "lint": "eslint ."
+  },
+  "engines": {
+    "node": "14.19.1",
+    "npm": ">=6.0.0"
   },
   "devDependencies": {
     "babel-eslint": "^10.0.0",
@@ -40,10 +44,6 @@
   },
   "strapi": {
     "uuid": "a45046ad-52e3-426c-a7aa-25c5de132bfe"
-  },
-  "engines": {
-    "node": ">=12.0.0",
-    "npm": ">=6.0.0"
   },
   "license": "MIT"
 }
