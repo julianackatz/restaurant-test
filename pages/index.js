@@ -6,7 +6,7 @@ import { InputGroup, InputGroupAddon,Input} from "reactstrap";
 
 
 function Home() {
-    const API_URL = process.env.NEXT_PUBLIC_API_URL || "http://shark-app-mbvzt.ondigitalocean.app";
+    const API_URL = process.env.NEXT_PUBLIC_API_URL || "shark-app-mbvzt.ondigitalocean.app";
     console.log(`URL: ${API_URL}`)
     const [query, setQuery] = useState("");
     const link = new HttpLink({ uri: `${API_URL}/graphql`})

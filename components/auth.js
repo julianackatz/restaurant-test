@@ -5,7 +5,7 @@ import Router from "next/router";
 import Cookie from "js-cookie";
 import axios from "axios";
 
-const API_URL = process.env.NEXT_PUBLIC_API_URL || "http://shark-app-mbvzt.ondigitalocean.app";
+const API_URL = process.env.NEXT_PUBLIC_API_URL || "shark-app-mbvzt.ondigitalocean.app";
 
 //register a new user
 export const registerUser = (username, email, password) => {

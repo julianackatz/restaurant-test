@@ -56,7 +56,7 @@ if(searchQuery.length > 0){
           top={true}
           style={{ height: 200 }}
           src={
-          `http://shark-app-mbvzt.ondigitalocean.app`+ res.image.url
+          `shark-app-mbvzt.ondigitalocean.app`+ res.image.url
           }
         />
         <CardBody>

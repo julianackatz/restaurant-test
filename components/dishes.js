@@ -55,7 +55,7 @@ const GET_RESTAURANT_DISHES = gql`
                 <CardImg
                   top={true}
                   style={{ height: 150, width:150 }}
-                  src={`http://shark-app-mbvzt.ondigitalocean.app${res.image.url}`}
+                  src={`shark-app-mbvzt.ondigitalocean.app${res.image.url}`}
                 />
                 <CardBody>
                   <CardTitle>{res.name}</CardTitle>
