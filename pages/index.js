@@ -17,7 +17,6 @@ function Home() {
     return (
         <ApolloProvider client={client}>
           <div className="search">
-            <div class="h-100 d-flex align-items-center justify-content-center"><img src={require("https://my-restaurant-images.s3.amazonaws.com/breakfast_cutlery.png")} /></div>
               <h2> Local Restaurants</h2>
                 <InputGroup >
                 <InputGroupAddon addonType="append"> Search </InputGroupAddon>
