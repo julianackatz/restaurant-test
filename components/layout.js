@@ -9,7 +9,7 @@ import Cookie from "js-cookie";
 import { logout } from "./auth";
 
 const Layout = (props) => {
-const title = "Welcome to Nextjs";
+const title = "Welcome LocalsEat";
 //const {user} = useContext(AppContext);
 //console.log("user in layout.js = "+user);
 const user = Cookie.get("username");
@@ -40,7 +40,7 @@ const user = Cookie.get("username");
             }
           `}
         </style>
-        <Nav className="navbar navbar-dark bg-dark">
+        <Nav className="navbar navbar-dark bg-dark text-light">
           <NavItem>
             <Link href="/">
               <a className="navbar-brand">Home</a>
