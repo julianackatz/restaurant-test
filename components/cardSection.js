@@ -1,4 +1,4 @@
-import React from 'react/cjs/react.production.min';
+import React from "react";
 
 import { CardElement } from "@stripe/react-stripe-js";
 
